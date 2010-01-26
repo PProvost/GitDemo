@@ -31,7 +31,7 @@ namespace GitDemo
 
 		private void loginButton_Click(object sender, RoutedEventArgs e)
 		{
-			MessageBoxResult result = MessageBox.Show("You are now logged in.");
+			MessageBoxResult result = MessageBox.Show("Hello there. You are now logged in.");
 		}
 	}
 }
