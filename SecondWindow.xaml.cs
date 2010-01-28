@@ -25,7 +25,7 @@ namespace GitDemo
 
 		private void button1_Click(object sender, RoutedEventArgs e)
 		{
-			MessageBoxResult result = MessageBox.Show("Hello there!");
+			MessageBoxResult result = MessageBox.Show("Hello there! This is a Git Demo!!");
 		}
 	}
 }
