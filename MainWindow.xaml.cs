@@ -26,7 +26,8 @@ namespace GitDemo
 
 		private void button1_Click(object sender, RoutedEventArgs e)
 		{
-			MessageBoxResult result = MessageBox.Show("Hello world!");
+			SecondWindow wnd = new SecondWindow();
+			wnd.ShowDialog();
 		}
 
 		private void loginButton_Click(object sender, RoutedEventArgs e)
