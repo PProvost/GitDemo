@@ -22,10 +22,5 @@ namespace GitDemo
 		{
 			InitializeComponent();
 		}
-
-		private void button1_Click(object sender, RoutedEventArgs e)
-		{
-			MessageBoxResult result = MessageBox.Show("You have been helped, good sir!!");
-		}
 	}
 }
